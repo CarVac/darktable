@@ -93,6 +93,7 @@ add_iop(denoiseprofile "denoiseprofile.c")
 add_iop(defringe "defringe.c")
 add_iop(ashift "ashift.c")
 add_iop(filmulate "filmulate.cc")
+add_iop(bloom2 "bloom2.cc")
 
 if(RSVG2_FOUND)
   add_iop(watermark "watermark.c")
